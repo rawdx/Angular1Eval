@@ -1,0 +1,15 @@
+<div class="asignaturas">
+    <h2>Asignaturas</h2>
+    <table>
+        <tr>
+            <th scope="col">Siglas</th>
+            <th scope="col">Asignatura</th>
+            <th scope="col">Profesor</th>
+        </tr>
+        <tr *ngFor="let asignatura of asignaturas">
+            <td scope="col">{{asignatura.siglas}}</td>
+            <td scope="col">{{asignatura.nombre}}</td>
+            <td scope="col">{{asignatura.profesor}}</td>
+        </tr>
+    </table>
+</div>
